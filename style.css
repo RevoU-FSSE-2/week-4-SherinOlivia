@@ -95,3 +95,8 @@ header .homepage .homepage-right img {
 main section.left-nav {
     display: none;
 }
+
+img {
+    width: 10px;
+    height: 10px;
+}
