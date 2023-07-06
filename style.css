@@ -1,7 +1,97 @@
+@font-face {
+    font-family: Yellowtail;
+    src: url(assets/fonts/Yellowtail-Regular.woff2);
+    font-display: swap;
+}
+@font-face {
+    font-family: Lato;
+    src: url(assets/fonts/Lato-Regular.woff2);
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+}
 
+/* @font-face */
+:root {
+    --primary-color: #023e7d;
+    --background-color: #7d8597;
+}
+
+html {
+    font-family: Lato;
+    background-color: var(--background-color);
+}
+
+/* all headings: */
+h1, h2 {
+    text-transform: uppercase;
+}
+
+header .right-nav {
+    padding: 0 5vw;
+}
+
+header .right-nav nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 5vw;
+    background-color: var(--primary-color);
+    border-radius: 25vw;
+    gap: 15vw;
+    padding: 1vw 3vw;
+}
+
+header .right-nav nav img {
+    width: 4vw;
+}
+
+header .homepage {
+    padding: 5vw 1vw;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    gap: 5vw;
+}
+
+header .homepage .homepage-left {
+    width: 100vw;
+    height: 50vw;
+    text-align: center;
+    margin-bottom: 15vw;
+}
+
+header .homepage .homepage-left h2 span {
+    font-family: Yellowtail;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+header .homepage .homepage-left span.title {
+    background-color: var(--primary-color);
+}
+
+header .homepage .homepage-left p {
+    text-align: justify;
+}
+
+/* .homepage .homepage-right {
+    width: 50vw;
+    height: 50%;
+} */
+
+header .homepage .homepage-right img {
+    width: 100vw;
+    height: 100vw;
+    padding-top: 10vw;
+}
+
+main section.left-nav {
+    display: none;
 }

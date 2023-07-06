@@ -4,16 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roozone v.2</title>
-    <link rel="stylesheet" src="/style.css">
-    <link rel="stylesheet" src="/responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header>
-        <section class="homepage">
+        <section class="right-nav">
+            <nav>
+                <!-- position fixed, mobile dimension top -->
+                <a href="#homepage">
+                    <img src="assets/icons/homeicon.svg" alt="Homepage" />
+                </a>
+                <a href="#aboutMe">
+                    <img src="assets/icons/abouticon.svg" alt="About Me" />
+                </a>
+                <a href="#resume">
+                    <img src="assets/icons/resumeicon.svg" alt="Resume" />
+                </a>
+                <a href="#portfolio">
+                    <img src="assets/icons/portfolioicon.svg" alt="Portfolio" />
+                </a>
+                <a href="#contactMe">
+                    <img src="assets/icons/contacticon.svg" alt="Contact Me" />
+                </a>
+            </nav>
+        </section>
+
+        <section class="homepage" id="homepage">
             <div class="homepage-left">
                 <h1>Hello World!</h1>
-                <h2><b>I'm</b> <span>Sherin Olivia</span></h2>
-                <span>Gamer | Daydreamer | Future Software Engineer</span>
+                <h2><b>I'm</b> <span>Sherin</span></h2>
+                <span class="title">Gamer | Daydreamer | Future Software Engineer</span>
                 <p>Welcome to my humble personal website, where you will be able to 
                 learn more about me and the things I do in my free time.
                 Hopefully they will intrigue you! 
@@ -21,28 +42,9 @@
                 <button class="homepage-button">Continue on</button>
             </div>
             <div class="homepage-right">
-                <img src="" alt="Sherin Olivia" />
+                <img src="assets/images/sherinolivia.webp" alt="Sherin Olivia" />
             </div>
         </section>
-
-        <nav class="right-nav">
-            <!-- position fixed, mobile dimension top -->
-            <a href="#">
-                <img src="" alt="Homepage" />
-            </a>
-            <a href="#">
-                <img src="" alt="About Me" />
-            </a>
-            <a href="#">
-                <img src="" alt="Resume" />
-            </a>
-            <a href="#">
-                <img src="" alt="Portfolio" />
-            </a>
-            <a href="#">
-                <img src="" alt="Contact Me" />
-            </a>
-        </nav>
 
     </header>
 
@@ -56,7 +58,7 @@
             <a href="#">CONTACT ME</a>
         </section>
 
-        <section class="about-me">
+        <section class="about-me" id="aboutMe">
             <h2> ABOUT ME </h2>
             <p> I'm <strong>Sherin Olivia</strong>, Game | Writing | Photography Hobbyist</p>
             <p> Voluptate reprehenderit id Lorem laboris voluptate sunt sunt veniam. 
@@ -80,7 +82,7 @@
             </div>
         </section>
 
-        <section class="resume">
+        <section class="resume" id="resume">
             <h2> RESUME </h2>
             <div class="resume-education">
                 <dl>
@@ -104,7 +106,7 @@
             </div>
         </section>
 
-        <section class="Portfolio">
+        <section class="Portfolio" id="portfolio">
             <h2> PORTFOLIO </h2>
             <div class="portfolio-button-container">
                 <button class="port-btn active">All</button>
@@ -173,7 +175,7 @@
     </main>
     
     <footer>
-        <section class="contact">
+        <section class="contact" id="contactMe">
             <h2> CONTACT </h2>
             <p>Thank you for visiting! Feel free to keep in touch</p>
             <div class="contact-links">
