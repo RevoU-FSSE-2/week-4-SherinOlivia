@@ -16,20 +16,43 @@
     box-sizing: border-box;
 }
 
-/* @font-face */
 :root {
     --primary-color: #023e7d;
     --background-color: #7d8597;
+    --text-shadow-primary: #979DAC;
+    --text-shadow-secondary-and-hover: #0353A4;
+    --text-shadow-background: #001845;
+    --text-with-backgrounds-color: #e7ecef;
+    --button-clicked: #002855;
+    
 }
 
 html {
+    width: 100%;
+    margin: auto;
     font-family: Lato;
     background-color: var(--background-color);
+    text-shadow: 0 0 3px var(--text-shadow-primary), 
+    0 0 5px var(--text-shadow-secondary-and-hover);
+}
+
+body {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.container {
+    scroll-snap-align: start;
 }
 
 /* all headings: */
 h1, h2 {
     text-transform: uppercase;
+}
+
+/* all images */
+img {
+    object-fit: cover;
 }
 
 header .right-nav {
@@ -47,12 +70,14 @@ header .right-nav nav {
     padding: 1vw 3vw;
 }
 
-header .right-nav nav img {
-    width: 4vw;
+header .right-nav nav a img {
+    width: 5vw;
+    height: 4.75vw;
+
 }
 
 header .homepage {
-    padding: 5vw 1vw;
+    padding: 5vw 1.5vw;
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
@@ -65,36 +90,172 @@ header .homepage .homepage-left {
     height: 50vw;
     text-align: center;
     margin-bottom: 15vw;
+    padding: 0 2vw;
+}
+
+header .homepage .homepage-left h1 {
+    padding-bottom: 2vw;
+}
+
+header .homepage .homepage-left h2 {
+    padding-bottom: 2vw;
 }
 
 header .homepage .homepage-left h2 span {
     font-family: Yellowtail;
     text-transform: uppercase;
     text-decoration: underline;
+    padding-bottom: 25vw;
 }
 
 header .homepage .homepage-left span.title {
+    text-shadow: 0 0 5px var(--text-with-backgrounds-color);
     background-color: var(--primary-color);
 }
 
 header .homepage .homepage-left p {
     text-align: justify;
+    padding: 5vw 0 7.5vw;
+    font-size: 12px;
 }
 
-/* .homepage .homepage-right {
+header .homepage .homepage-left button {
+    text-align: justify;
+    padding: 2.5vw;
+    border-radius: 25vw;
+    border-style: none;
+    background-color: var(--primary-color);
+    text-shadow: 0 0 3px var(--text-shadow-secondary-and-hover), 
+    0 0 5px var(--text-shadow-background);
+    cursor: pointer;
+}   
+
+header .homepage .homepage-left button:hover {
+    background-color: var(--text-shadow-secondary-and-hover);
+}
+
+header .homepage .homepage-left button:active {
+    background-color: var(--button-clicked);
+    color: var(--background-color);
+}
+
+header .homepage .homepage-left button a:link {
+    color: var(--text-with-backgrounds-color);
+}
+
+header .homepage .homepage-left button a:visited {
+    color: var(--text-with-backgrounds-color);
+}
+
+.homepage .homepage-right {
     width: 50vw;
     height: 50%;
-} */
+}
 
 header .homepage .homepage-right img {
     width: 100vw;
     height: 100vw;
     padding-top: 10vw;
+    object-fit: cover;
 }
 
 main section.left-nav {
     display: none;
 }
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    border-style: dotted;
+    padding: 2vw 5vw;
+}
+
+section.about-me {
+    padding: 17.5vw 2vw;
+}
+
+section.about-me span {
+    row-gap: 5vw;
+}
+
+section.about-me p {
+    padding-top: 5vw;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.about-me-title {
+    padding-top: 5vw;
+}
+
+.hobby1, .hobby2, .hobby3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5vw;
+    text-align: justify;
+}
+
+.hobby img {
+    width: 25vw;
+    height: 25vw;
+}
+
+section.resume {
+    padding: 17.5vw 2vw;
+}
+
+.resume-education, .resume-experience {
+    padding: 3.5vw 2vw;
+}
+
+.resume dt {
+    padding-top: 1.5vw;
+    text-decoration: underline;
+}
+
+.resume dd {
+    font-size: 12px;
+}
+
+section.portfolio {
+    padding: 17.5vw 2vw;
+}
+
+footer h2 {
+    display: flex;
+    justify-content: center;
+    border-style: dotted;
+    padding: 2vw 5vw;
+}
+
+section.contact {
+    padding: 17.5vw 2vw;
+}
+
+.contact-greeting {
+    padding: 5vw 0;
+}
+
+.contact-email {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.contact-socmed {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5vw 0;
+}
+
+.contact img {
+    width: 10vw;
+    height: 10vw;
+}
+
 
 img {
     width: 10px;
