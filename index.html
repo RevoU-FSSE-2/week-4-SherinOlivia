@@ -6,6 +6,7 @@
     <title>Roozone v.2</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/rooico.ico">
 </head>
 <body>
     <header>
@@ -50,33 +51,44 @@
 
     <main>
         <section class="left-nav">
-            <!-- position sticky, mobile dimension display none -->
-            <a href="#">HOME</a>
-            <a href="#">ABOUT ME</a>
-            <a href="#">RESUME</a>
-            <a href="#">PORTFOLIO</a>
-            <a href="#">CONTACT ME</a>
+            <figure class="left-nav-img">
+                <img src="assets/images/Roologo.webp" alt="humble temporary logo of Roo" />
+            </figure>
+            <a href="#homepage">HOME</a>
+            <a href="#aboutMe">ABOUT ME</a>
+            <a href="#resume">RESUME</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contactMe">CONTACT ME</a>
         </section>
 
         <section class="about-me" id="aboutMe">
             <h2> ABOUT ME </h2>
             <p> I'm <strong>Sherin Olivia</strong>, Game | Writing | Photography Hobbyist</p>
-            <p> Voluptate reprehenderit id Lorem laboris voluptate sunt sunt veniam. 
-                Elit irure anim do eu consectetur enim. Do deserunt dolore pariatur 
-                pariatur nisi et mollit proident commodo ut excepteur.</p>
+            <p> Currently enrolled in RevoU's Full Stack Software Engineering course 
+                aspiring to become a <strong>Software Engineer</strong>. In my spare time, 
+                I'm a gamer and a wannabe writer. My go-to outdoor activities are 
+                walking in the park and visiting museums and galleries, I enjoy documenting 
+                these activities through the lense of my mobile phone.</p>
 
             <div class="about-me-hobby">
                 <!-- border + border shadow per hobby -->
                 <div class="hobby1">
-                    <img src="#" alt="an image symbolizing my hobby in gaming" />
-                    <p> Incididunt officia nostrud Lorem ullamco irure adipisicing veniam nulla enim.</p>
+                    <img src="assets/icons/controller.svg" alt="an image symbolizing my hobby in gaming" />
+                    <p> I tend to resonate well with games that have great focus on lore 
+                        and character developments, along with unique mechanism.
+                        Some of my favourites include but not limited to Watch_Dogs 2, 
+                        Assassin's Creed, The Witcher 3, Path to Nowhere (mobile).</p>
                 </div>
                 <div class="hobby2">
-                    <img src="#" alt="an image symbolizing my hobby in writing" />
-                    <p> Incididunt officia nostrud Lorem ullamco irure adipisicing veniam nulla enim.</p>
+                    <img src="assets/icons/pen.svg" alt="an image symbolizing my hobby in writing" />
+                    <p> Perhaps because I'm introverted, that I'm not good with spoken words. 
+                        Hence, I pour my thoughts into writings such as poems and epiphanies, 
+                        to untangle my mind that unfortunately often contradicts--or questions 
+                        the common views of the society. I'm in no way is a rebel, but as an agnostic, 
+                        I do especially well in questioning.</p>
                 </div>
                 <div class="hobby3">
-                    <img src="#" alt="an image symbolizing my hobby in photography" />
+                    <img src="assets/icons/camera.svg" alt="an image symbolizing my hobby in photography" />
                     <p> Incididunt officia nostrud Lorem ullamco irure adipisicing veniam nulla enim.</p>
                 </div>
             </div>
@@ -86,22 +98,41 @@
             <h2> RESUME </h2>
             <div class="resume-education">
                 <dl>
-                    <dt>High School: St.Kristoforus I</dt>
-                    <dd>Enim veniam velit sit nulla Lorem laborum in in.</dd>
-                    <dt>EF Adults</dt>
-                    <dd>Sit mollit minim in excepteur nulla non deserunt officia sunt.</dd>
-                    <dt>RevoU</dt>
-                    <dd>Qui velit ullamco mollit sunt anim eiusmod ea sit exercitation.</dd>
+                    <dt>High School: St.Kristoforus I (X'to 1) | 2010 - 2016</dt>
+                    <dd>Went to X'to 1 for middle school and high school. Was active in Computer Club,
+                        Science Club, and briefly, English club. Consistently reached Top 4 in class ranking 
+                        during middle school and Top 10 in high school - science division.
+                    </dd>
+                    <dt>EF Adults | 2020 - 2021</dt>
+                    <dd>Attended EF Adults with the goal to comfortably and seamlessly utilize my English 
+                        knowledge in real situations. Successfully finished the course roughly two months 
+                        before the end of the contract.
+                    </dd>
+                    <dt>RevoU | 2023 - Present </dt>
+                    <dd>Finished two-weeks fundamental course on the topic "Intro to Software Engineering" 
+                        in May 2023. Decidedly delved deeper into Software Engineering path through Full
+                        Stack Software Engineering Course. Currently estimated to finish the course by 
+                        March 2024 the latest.   
+                    </dd>
                 </dl>
             </div>
             <div class="resume-experience">
                 <dl>
-                    <dt>Experience1</dt>
-                    <dd>Eiusmod occaecat nostrud elit do nisi.</dd>
-                    <dt>Experience2</dt>
-                    <dd>Incididunt qui ad laborum incididunt ipsum excepteur nulla ut ut nisi anim exercitation.</dd>
-                    <dt>Experience3</dt>
-                    <dd>Ea nisi incididunt ullamco elit sint veniam ea voluptate.</dd>
+                    <dt>PT. Total Klin Batam | Aug 2016 - Jan 2017</dt>
+                    <dd>Worked for a laundry that serves hotels and restaurants. Job desk included
+                        office administrative works such as compiling clients' daily orders, preparing monthly
+                        invoice and account statements, and making monthly finance reports.
+                    </dd>
+                    <dt>PT. Intisumber Bajasakti Jakarta HQ| Jan 2017 - Present</dt>
+                    <dd>Working as an administrative staff, main job desk is to input customers' orders into
+                        company's program, including numerous minor details to ensure the smooth process of main job 
+                        desk. Occasionally able to find programs' errors or oddities and reporting them in a concise manner
+                        to the IT Department.
+                    </dd>
+                    <dt>Seminars and Webinars</dt>
+                    <dd>Have previously attended several seminars (mostly webinars) that touches on
+                        tech, finance, or english (as a language) topics.
+                    </dd>
                 </dl>
             </div>
         </section>
@@ -117,59 +148,50 @@
 
             <div class="portfolio-container">
                 <!-- writing portfolio tbd whether in screenshots or bordered text -->
-                <p class="port-filter writing">
-                     ex aliquip laborum laboris ullamco non id aliquip aute cupidatat esse laborum qui. 
-                        Amet sit elit reprehenderit ut sunt enim elit reprehenderit adipisicing sint. 
-                        Exercitation id labore laboris non exercitation cupidatat dolore duis reprehenderit. 
-                        Et ut nulla Lorem amet aliquip veniam qui.
-                </p>
-                <p class="port-filter writing">
-                    Do ex aliquip laborum laboris ullamco non id aliquip aute cupidatat esse laborum qui. 
-                        Amet sit elit reprehenderit ut sunt enim elit reprehenderit adipisicing sint. 
-                        Exercitation id labore laboris non exercitation cupidatat dolore duis reprehenderit. 
-                        Et ut nulla Lorem amet aliquip veniam qui.
-                </p>
-                <p class="port-filter writing">
-                    Do ex aliquip laborum laboris ullamco non id aliquip aute cupidatat esse laborum qui. 
-                        Amet sit elit reprehenderit ut sunt enim elit reprehenderit adipisicing sint. 
-                        Exercitation id labore laboris non exercitation cupidatat dolore duis reprehenderit. 
-                        Et ut nulla Lorem amet aliquip veniam qui.
-                </p>
+                <figure class="port-filter writing">
+                    <img src="assets/images/Writing1.webp" alt="Writing titled 'They'" />
+                </figure>
+                <figure class="port-filter writing">
+                    <img src="assets/images/Writing2.webp" alt="Writing titled 'Lost & Found'" />
+                </figure>
+                <figure class="port-filter writing">
+                    <img src="assets/images/Writing3.webp" alt="Writing titled 'Ungodly Hour'" />
+                </figure>
 
                 <figure class="port-filter photography">
-                    <img src="" alt="photography1" />
+                    <img src="assets/images/Lotus.webp" alt="beautiful lotus flower" />
                 </figure>
                 <figure class="port-filter photography">
-                    <img src="" alt="photography2" />
+                    <img src="assets/images/Oceanview.webp" alt="calming view of the ocean from North Jakarta" />
                 </figure>
                 <figure class="port-filter photography">
-                    <img src="" alt="photography3" />
+                    <img src="assets/images/Borobudur.webp" alt="majestic view of the Borobudur Temple" />
                 </figure>
                 <figure class="port-filter photography">
-                    <img src="" alt="photography4" />
+                    <img src="assets/images/SunsetinPluit.webp" alt="vibrant sunset from a bus stop in Pluit" />
                 </figure>
                 <figure class="port-filter photography">
-                    <img src="" alt="photography5" />
+                    <img src="assets/images/Cathedral.webp" alt="melancholic view of the inside of the Cathedral" />
                 </figure>
                 <figure class="port-filter photography">
-                    <img src="" alt="photography6" />
+                    <img src="assets/images/SunsetWings.webp" alt="unique sunset when the sunlight gets covered in the center part" />
                 </figure>
 
                 <figure class="port-filter revou">
-                    <img src="" alt="revou1" />
+                    <img src="assets/images/RevoufundaWebcapture.webp" alt="Webcapture of RevoU's Fundamental Course Assignment" />
                 </figure>
                 <figure class="port-filter revou">
-                    <img src="" alt="revou2" />
+                    <img src="assets/images/A1Webcapture.webp" alt="Webcapture of RevoU's FSSE 1st week Assignment" />
                 </figure>
                 <figure class="port-filter revou">
-                    <img src="" alt="revou3" />
+                    <img src="assets/images/A2Webcapture.webp" alt="Webcapture of RevoU's FSSE 2nd week Assignment" />
                 </figure>
                 <figure class="port-filter revou">
-                    <img src="" alt="revou4" />
+                    <img src="assets/images/A3Webcapture.webp" alt="Webcapture of RevoU's FSSE 3rd week Assignment" />
                 </figure>
-                <figure class="port-filter revou">
+                <!-- <figure class="port-filter revou">
                     <img src="" alt="revou5" />
-                </figure>
+                </figure> -->
             </div>
         </section>
     </main>
@@ -183,17 +205,17 @@
                     <img src="" alt="Gmail Logo" />
                     <h3>SOChronicle@gmail.com | SOlivia198@gmail.com</h3>
                 </div>
-                <a href="#" target="_blank">
-                    <img src="" alt="LinkedIn profile of Sherin Olivia" />
+                <a href="https://www.linkedin.com/in/sherin-olivia-07311127a/" target="_blank">
+                    <img src="assets/icons/linkedin.svg" alt="LinkedIn profile of Sherin Olivia" />
                 </a>
-                <a href="#" target="_blank">
-                    <img src="" alt="Instagram profile of Sherin Olivia" />
+                <a href="https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==" target="_blank">
+                    <img src="assets/icons/instagram.svg" alt="Instagram profile of Sherin Olivia" />
                 </a>
-                <a href="#" target="_blank">
-                    <img src="" alt="Discord profile of Sherin Olivia" />
+                <a href="https://discord.com/users/shxdxr#7539" target="_blank">
+                    <img src="assets/icons/discord.svg" alt="Discord profile of Sherin Olivia" />
                 </a>
-                <a href="#" target="_blank">
-                    <img src="" alt="Github profile of Sherin Olivia" />
+                <a href="https://github.com/SherinOlivia" target="_blank">
+                    <img src="assets/icons/github.svg" alt="Github profile of Sherin Olivia" />
                 </a>
             </div>
         </section>
