@@ -31,7 +31,7 @@
             </nav>
         </section>
 
-        <section class="homepage" id="homepage">
+        <section class="homepage container" id="homepage">
             <div class="homepage-left">
                 <h1>Hello World!</h1>
                 <h2><b>I'm</b> <span>Sherin</span></h2>
@@ -40,7 +40,7 @@
                 learn more about me and the things I do in my free time.
                 Hopefully they will intrigue you! 
                 </p>
-                <button class="homepage-button">Continue on</button>
+                <button class="homepage-button"><a href="#aboutMe">Continue on</a></button>
             </div>
             <div class="homepage-right">
                 <img src="assets/images/sherinolivia.webp" alt="Sherin Olivia" />
@@ -61,16 +61,17 @@
             <a href="#contactMe">CONTACT ME</a>
         </section>
 
-        <section class="about-me" id="aboutMe">
+        <section class="about-me container" id="aboutMe">
             <h2> ABOUT ME </h2>
-            <p> I'm <strong>Sherin Olivia</strong>, Game | Writing | Photography Hobbyist</p>
-            <p> Currently enrolled in RevoU's Full Stack Software Engineering course 
-                aspiring to become a <strong>Software Engineer</strong>. In my spare time, 
-                I'm a gamer and a wannabe writer. My go-to outdoor activities are 
-                walking in the park and visiting museums and galleries, I enjoy documenting 
-                these activities through the lense of my mobile phone.</p>
-
-            <div class="about-me-hobby">
+            <div class="about-me-title">
+                <span> I'm <strong>Sherin Olivia</strong>, Geeky Hobbyist</span>
+                <p> Currently enrolled in RevoU's Full Stack Software Engineering course 
+                    aspiring to become a <strong>Software Engineer</strong>. In my spare time, 
+                    I'm a gamer and a wannabe writer. My go-to outdoor activities are 
+                    walking in the park and visiting museums and galleries, I enjoy documenting 
+                    these activities through the lense of my mobile phone.</p>
+            </div>
+            <div class="about-me-hobby hobby">
                 <!-- border + border shadow per hobby -->
                 <div class="hobby1">
                     <img src="assets/icons/controller.svg" alt="an image symbolizing my hobby in gaming" />
@@ -79,7 +80,7 @@
                         Some of my favourites include but not limited to Watch_Dogs 2, 
                         Assassin's Creed, The Witcher 3, Path to Nowhere (mobile).</p>
                 </div>
-                <div class="hobby2">
+                <div class="hobby2 hobby">
                     <img src="assets/icons/pen.svg" alt="an image symbolizing my hobby in writing" />
                     <p> Perhaps because I'm introverted, that I'm not good with spoken words. 
                         Hence, I pour my thoughts into writings such as poems and epiphanies, 
@@ -87,16 +88,21 @@
                         the common views of the society. I'm in no way is a rebel, but as an agnostic, 
                         I do especially well in questioning.</p>
                 </div>
-                <div class="hobby3">
+                <div class="hobby3 hobby">
                     <img src="assets/icons/camera.svg" alt="an image symbolizing my hobby in photography" />
-                    <p> Incididunt officia nostrud Lorem ullamco irure adipisicing veniam nulla enim.</p>
+                    <p> In an effort to preserve positive events and or activities, I try to delve 
+                        into photography, albeit in a very humble manner. All for the purpose that if 
+                        I were to come across those photographs, I would be able to reminisce on the 
+                        happy memories behind it and feel motivated to continuously do my best so I can 
+                        create more of those happy memories in real time.</p>
                 </div>
             </div>
         </section>
 
-        <section class="resume" id="resume">
+        <section class="resume container" id="resume">
             <h2> RESUME </h2>
             <div class="resume-education">
+                <span>Education</span>
                 <dl>
                     <dt>High School: St.Kristoforus I (X'to 1) | 2010 - 2016</dt>
                     <dd>Went to X'to 1 for middle school and high school. Was active in Computer Club,
@@ -117,6 +123,7 @@
                 </dl>
             </div>
             <div class="resume-experience">
+                <span>Experience</span>
                 <dl>
                     <dt>PT. Total Klin Batam | Aug 2016 - Jan 2017</dt>
                     <dd>Worked for a laundry that serves hotels and restaurants. Job desk included
@@ -137,7 +144,7 @@
             </div>
         </section>
 
-        <section class="Portfolio" id="portfolio">
+        <section class="portfolio container" id="portfolio">
             <h2> PORTFOLIO </h2>
             <div class="portfolio-button-container">
                 <button class="port-btn active">All</button>
@@ -197,26 +204,31 @@
     </main>
     
     <footer>
-        <section class="contact" id="contactMe">
+        <section class="contact container" id="contactMe">
             <h2> CONTACT </h2>
-            <p>Thank you for visiting! Feel free to keep in touch</p>
+            <div class="contact-greeting">
+                <p>Thank you for visiting!</p>
+                <p>Feel free to keep in touch!</p>
+            </div>
             <div class="contact-links">
                 <div class="contact-email">
-                    <img src="" alt="Gmail Logo" />
-                    <h3>SOChronicle@gmail.com | SOlivia198@gmail.com</h3>
+                    <img src="assets/icons/email.svg" alt="Gmail Logo" />
+                    <h3>SOChronicle@gmail.com SOlivia198@gmail.com</h3>
                 </div>
-                <a href="https://www.linkedin.com/in/sherin-olivia-07311127a/" target="_blank">
-                    <img src="assets/icons/linkedin.svg" alt="LinkedIn profile of Sherin Olivia" />
-                </a>
-                <a href="https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==" target="_blank">
-                    <img src="assets/icons/instagram.svg" alt="Instagram profile of Sherin Olivia" />
-                </a>
-                <a href="https://discord.com/users/shxdxr#7539" target="_blank">
-                    <img src="assets/icons/discord.svg" alt="Discord profile of Sherin Olivia" />
-                </a>
-                <a href="https://github.com/SherinOlivia" target="_blank">
-                    <img src="assets/icons/github.svg" alt="Github profile of Sherin Olivia" />
-                </a>
+                <div class="contact-socmed">
+                    <a href="https://www.linkedin.com/in/sherin-olivia-07311127a/" target="_blank">
+                        <img src="assets/icons/linkedin.svg" alt="LinkedIn profile of Sherin Olivia" />
+                    </a>
+                    <a href="https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==" target="_blank">
+                        <img src="assets/icons/instagram.svg" alt="Instagram profile of Sherin Olivia" />
+                    </a>
+                    <a href="https://discord.com/users/shxdxr#7539" target="_blank">
+                        <img src="assets/icons/discord.svg" alt="Discord profile of Sherin Olivia" />
+                    </a>
+                    <a href="https://github.com/SherinOlivia" target="_blank">
+                        <img src="assets/icons/github.svg" alt="Github profile of Sherin Olivia" />
+                    </a>
+                </div>
             </div>
         </section>
     </footer>

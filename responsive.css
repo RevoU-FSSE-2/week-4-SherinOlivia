@@ -1,0 +1,74 @@
+@media screen and (min-width: 768px) {
+    header .right-nav nav {
+        top: 3.5vw;
+        gap: 15vw;
+        padding: 1vw 2vw;
+    }
+    
+    header .right-nav nav a img {
+        width: 2.5vw;
+        height: 2vw;
+    
+    }
+    header .homepage {
+        padding: 5vw 1.5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        gap: 5vw;
+    }
+/*     
+    header .homepage .homepage-left {
+        width: 100vw;
+        height: 50vw;
+        text-align: center;
+        margin-bottom: 15vw;
+        padding: 0 2vw;
+    } */
+    
+    /* header .homepage .homepage-left h1 {
+        padding-bottom: 2vw;
+    }
+    
+    header .homepage .homepage-left h2 {
+        padding-bottom: 2vw;
+    }
+    
+    header .homepage .homepage-left h2 span {
+        font-family: Yellowtail;
+        text-transform: uppercase;
+        text-decoration: underline;
+        padding-bottom: 25vw;
+    } */
+/*     
+    header .homepage .homepage-left span.title {
+        background-color: var(--primary-color);
+    } */
+    
+    /* header .homepage .homepage-left p {
+        text-align: justify;
+        padding: 3vw 0;
+    } */
+    
+    /* header .homepage .homepage-left button {
+        text-align: justify;
+        padding: 2.5vw;
+        border-radius: 25vw;
+        border-style: none;
+        background-color: var(--primary-color);
+        color: var(--text-with-backgrounds-color);
+        text-shadow: 0 0 3px var(--text-shadow-secondary-and-hover), 
+        0 0 5px var(--text-shadow-background);
+        cursor: pointer;
+    }    */
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 1440px) {
+    
+}
