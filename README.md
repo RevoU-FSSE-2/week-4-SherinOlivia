@@ -155,6 +155,7 @@ Now that our custom domain is active, we can go ahead and deploy our website thr
 <img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/addcustomdomain_2_.webp" alt="insert custom domain to domain setting"/>
 <img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/addcustomdomain_3_.webp" alt="adding custom domain to netlify" />
 13. Next, go back to Cloudfare and click on your custom domain.
+
 14. Click on 'DNS' setting on the left side-bar or under Quick Action on the right side.
 <img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/wheretofinddnssetting.webp" alt="Where to find DNS Setting" />
 15. Click on 'Add record', and insert these:
