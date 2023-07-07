@@ -218,9 +218,58 @@ section.resume {
     font-size: 12px;
 }
 
+/* Construction site : portfolio starts */
+
 section.portfolio {
     padding: 17.5vw 2vw;
 }
+
+.portfolio-button-container {
+    padding: 5vw 0;
+    display: flex;
+    justify-content: center;
+    gap: 3.5vw;
+}
+.portfolio-button-container button {
+    border-style: none;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.portfolio-button-container button:hover {
+    text-shadow: 0 0 3px var(--text-shadow-secondary-and-hover);
+}
+
+.portfolio-button-container button.active {
+    color: var(--text-with-backgrounds-color);
+    text-shadow: 0 0 3px var(--text-shadow-background);
+}
+
+.port-filter {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    padding: 5vw 0;
+    margin-top: 5vw;
+    overflow: hidden;
+}
+
+.portfolio img {
+    width: 35vw;
+    height: 35vw;
+}
+/* Construction site : portfolio ends */
 
 footer h2 {
     display: flex;
@@ -254,10 +303,4 @@ section.contact {
 .contact img {
     width: 10vw;
     height: 10vw;
-}
-
-
-img {
-    width: 10px;
-    height: 10px;
 }
