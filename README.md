@@ -76,16 +76,14 @@ or
 In this particular tutorial, we are opting for domestic domain registrar, 'Niagahoster'.
 
 1. First, go to <a href="https://www.niagahoster.co.id/"> www.niagahoster.co.id</a>
-<img src="" alt="niagahoster website" />
-
 2. Sign up or login through Facebook or Google account.
-<img src="" alt="sign up or login through Facebook or Google account" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/niagahosterloginorsignup.webp" alt="sign up or login through Facebook or Google account" />
 
 3. Check the availability of any domain name of your liking.
-<img src="" alt="domain name checking process" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/checkdomainname.webp" alt="domain name checking process" />
 
 4. Purchase the custom domain and pay using your preferred payment method.
-<img src="" alt="purchasing custom domain" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/niagahosterpaymentmethod.webp" alt="purchasing custom domain" />
 
 5. Wait for the transaction to finish
 
@@ -99,26 +97,27 @@ To do that,
 
 1. First, we go to <a href="https://www.cloudflare.com/"> www.cloudfare.com</a>
 2. Sign up with your email and verify the account through your email
-<img src="" alt="Cloudfare Sign Up menu" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/loginorsignupcloudfare.webp" alt="Cloudfare Sign Up menu" />
 
 3. On the home page, click 'Add a Site' and enter your 'Custom Domain
-<img src="" alt="add a site on home page of Cloudfare" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/cloudfareaddsite.webp" alt="add a site on home page of Cloudfare" />
 
 4. Click 'Add Site' to confirm
-<img src="" alt="add site confirmation" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/addsiteconfirmationcloudfare.webp" alt="add site confirmation" />
 
 5. From the subscription plans shown, choose Free Plan option
-<img src="" alt="free plan from Cloudfare" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/cloudfarefreeplan.webp" alt="free plan from Cloudfare" />
 
-6. Copy the Nameserver shown (We will use them to change the Nameserver in Niagahoster 
+6. Copy the Nameserver shown (We will use them to change the Nameserver in Niagahoster)
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/cloudfarenameserver.webp" alt="Cloudfare's nameservers" />
 
 7. Go to <a href="https://client.niagahoster.co.id/">www.client.niagahoster.co.id</a> and click on your Custom Domain
 
 8. On the Nameserver setting (or in 'Overview Domain'), click change nameserver and paste both nameservers from Cloudfare.
-<img src="" alt="change Niagahoster Nameserver with Cloudfare's" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/verifyemailandchangenameserver.webp" alt="change Niagahoster Nameserver with Cloudfare's" />
 
 9. Wait for Cloudfare to verify this process, you will get an email from Cloudfare when your custom domain is successfully activated on Cloudfare's free plan.
-<img src="" alt="Custom domain active notification by email from Cloudfare" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/cloudfareemail.webp" alt="Custom domain active notification by email from Cloudfare" />
 
 ## Web Deployment
 
@@ -128,19 +127,20 @@ Now that our custom domain is active, we can go ahead and deploy our website thr
 2. Sign up using your preferred account or email, but in this tutorial, We will be using 'Sign Up with Github' method.
 3. Fill out the short survey and set your team's name
 4. Click 'Add new site' and choose 'Import an existing project'
-<img src="" alt="add new site on Netlify" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/netlifyimportproject.webp" alt="add new site on Netlify" />
 
 5. Choose 'Deploy with Github', on your first time, you will be directed to login to your Github account to authorize the connection
-<img src="" alt="Deploy with Github" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/deploywithgithub.webp" alt="Deploy with Github" />
 
 6. Look for the repository of your website. 
-<img src="" alt="choosing repository to deploy" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/chooserepotodeploy.webp" alt="choosing repository to deploy" />
 
 7. Scroll down and click on 'Deploy (repository name)'
-<img src="" alt="deploy repository confirmation" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/deploysite.webp" alt="deploy repository confirmation" />
 
 8. Wait for your website to get deployed (Usually almost instantly)
 9. When your website is successfully deployed, you will get a randomly named website with 'netlify.app' subdomain. 
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/netlifyrandomnamesite.webp" alt="netlify's randomly-named site" />
 10. Click 'Site configuration' -> 'Change site name' to change the website's name.
 <img src="" alt="changing site name" />
 
