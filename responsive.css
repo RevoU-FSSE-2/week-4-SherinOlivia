@@ -1,74 +1,281 @@
 @media screen and (min-width: 768px) {
+
+    :root {
+        --section-title-font-size: 24px;
+        --section-subtitle-font-size: 16px;
+        --about-me-span-font-size: 18px;
+        --paragraph-title-button-and-h3-font-size: 16px;
+        --paragraph-font-size: 14px;
+    }
+
     header .right-nav nav {
-        top: 3.5vw;
+        top: 1vw;
         gap: 15vw;
-        padding: 1vw 2vw;
+        padding: 1vw 8vw;
     }
     
     header .right-nav nav a img {
         width: 2.5vw;
         height: 2vw;
-    
     }
+
     header .homepage {
-        padding: 5vw 1.5vw;
-        display: flex;
+        padding: 5.25vw 0 0 0;
         flex-direction: row;
         align-items: center;
-        width: 100%;
-        height: 100%;
-        gap: 5vw;
+        justify-content: center;
+        gap: 0;
     }
-/*     
+    
+    header .homepage div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
     header .homepage .homepage-left {
-        width: 100vw;
-        height: 50vw;
-        text-align: center;
-        margin-bottom: 15vw;
-        padding: 0 2vw;
-    } */
-    
-    /* header .homepage .homepage-left h1 {
-        padding-bottom: 2vw;
+        width: 50vw;
+        height: 75vw;
+        margin: 0;
+        background-color: #e8eaefd3;
+        align-items: baseline;
     }
-    
-    header .homepage .homepage-left h2 {
-        padding-bottom: 2vw;
-    }
-    
-    header .homepage .homepage-left h2 span {
-        font-family: Yellowtail;
-        text-transform: uppercase;
-        text-decoration: underline;
-        padding-bottom: 25vw;
-    } */
-/*     
+
     header .homepage .homepage-left span.title {
-        background-color: var(--primary-color);
-    } */
+        background-color: var(--sub-subtitle-background-color);
+        
+    } 
+
+    header .homepage .homepage-right img {
+        width: 50vw;
+        height: 75vw;
+        object-fit: cover;
+        padding: 0;
+    }
+
+    section.about-me {
+        padding: 8.5vw 2vw;
+    }
+
+    section.about-me .hobby img {
+        width: 20vw;
+        height: 10vw;
+    }
+
+    .hobby1, .hobby2, .hobby3 {
+        gap: 10vw;
+        padding: 5vw 2vw 0 2vw;
+    }
+
+    section.about-me p {
+        padding-top: 2vw;
+    }
+
+    section.resume {
+        padding: 8.5vw 2vw;
+    }
+
+    .resume-education, .resume-experience {
+        padding: 1.5vw 2vw;
+    }
+
+    section.portfolio {
+        padding: 8.5vw 2vw;
+    }
+
+    #portfolioButtonContainer {
+        padding: 2vw 0;
+    }
     
-    /* header .homepage .homepage-left p {
-        text-align: justify;
-        padding: 3vw 0;
-    } */
+    .portfolio-container {
+        padding: 2vw 0;
+    }
     
-    /* header .homepage .homepage-left button {
-        text-align: justify;
-        padding: 2.5vw;
-        border-radius: 25vw;
-        border-style: none;
-        background-color: var(--primary-color);
-        color: var(--text-with-backgrounds-color);
-        text-shadow: 0 0 3px var(--text-shadow-secondary-and-hover), 
-        0 0 5px var(--text-shadow-background);
-        cursor: pointer;
-    }    */
+    .portfolio img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .contact img {
+        width: 5vw;
+        height: 5vw;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
+
+    :root {
+        --section-title-font-size: 32px;
+        --section-subtitle-font-size: 20px;
+        --paragraph-title-button-and-h3-font-size: 16px;
+        --paragraph-font-size: 18px;
+        --about-me-span-font-size: 24px;
+    }
     
+    header .right-nav nav {
+        padding: 0.5vw 8vw;
+    }
+    
+    header .right-nav nav a img {
+        width: 2.5vw;
+        height: 1.75vw;
+    }
+
+    header .homepage {
+        padding: 5vw 0 0 0;
+    }
+    
+    header .homepage div {
+        height: 75vh;
+    }
+
+    header .homepage .homepage-left {
+        width: 50vw;
+        height: 57.5vw;
+        margin: 0;
+        background-color: #e8eaefd3;
+        align-items: baseline;
+    }
+
+    header .homepage .homepage-right img {
+        height: 57.5vw;
+    }
+
+    section.about-me {
+        padding: 7vw 2vw;
+    }
+
+    .about-me-title {
+        padding-top: 2vw;
+    }
+
+    section.about-me .hobby img {
+        width: 17vw;
+        height: 6.6vw;
+    }
+
+    .hobby1, .hobby2, .hobby3 {
+        gap: 5vw;
+        padding: 0 2vw;
+    }
+
+    section.about-me p {
+        padding-top: 3vw;
+    }
+
+    section.resume {
+        padding: 6vw 2vw;
+    }
+
+    section.resume h2 {
+        padding: 1vw;
+    }
+    .resume-education, .resume-experience {
+        padding: 1vw 2vw;
+    }
+
+    section.resume dt {
+        padding: 1vw 0;
+    }
+
+    section.portfolio {
+        padding: 7vw 2vw;
+    }
+
+    #portfolioButtonContainer {
+        padding: 2vw 0;
+    }
+    
+    .portfolio-container {
+        padding: 2vw 0;
+    }
+    
+    .portfolio img {
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    .contact div small {
+        font-size: larger;
+    }
 }
 
 @media screen and (min-width: 1440px) {
+    :root {
+        --section-title-font-size: 32px;
+        --section-subtitle-font-size: 24px;
+        --paragraph-title-button-and-h3-font-size: 18px;
+        --paragraph-font-size: 20px;
+        --about-me-span-font-size: 24px;
+    }
     
+    header .right-nav nav a img {
+        height: 2.35vw;
+    }
+
+    header .homepage .homepage-left p {
+        text-align: justify;
+        padding: 3vw 5vw 3vw 0;
+        font-size: var(--paragraph-font-size);
+    }
+
+    header .homepage .homepage-left button {
+        padding: 2vw 2.5vw;
+    }
+
+    header .homepage .homepage-right img {
+        height: 57.5vw;
+    }
+
+    section.about-me {
+        padding: 7vw 2vw;
+    }
+
+    .about-me-title {
+        padding-top: 2vw;
+    }
+
+    section.about-me .hobby img {
+        width: 15vw;
+        height: 7.5vw;
+    }
+
+    .hobby1, .hobby2, .hobby3 {
+        gap: 5vw;
+        padding: 1vw 2vw;
+    }
+
+    section.about-me .hobby1 p, section.about-me .hobby3 p {
+        padding-top: 1vw;
+        padding-right: 12.5vw;
+    }
+
+    section.about-me .hobby2 p {
+        padding-top: 1vw;
+        padding-left: 12.5vw;
+    }
+
+    #portfolioButtonContainer {
+        padding: 2vw 0 0;
+        font-size: var(--paragraph-font-size);
+    }
+    
+    .portfolio-container {
+        padding: 2vw 0;
+    }
+    
+    .portfolio img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .contact img {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+
+
 }

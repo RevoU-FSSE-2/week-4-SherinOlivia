@@ -41,6 +41,9 @@
                 Hopefully they will intrigue you! 
                 </p>
                 <button class="homepage-button"><a href="#aboutMe">Continue on</a></button>
+                <figure>
+                    <img src="assets/images/Roologo.webp" id="rooLogo" alt="Roologo" />
+                </figure>
             </div>
             <div class="homepage-right">
                 <img src="assets/images/sherinolivia.webp" alt="Sherin Olivia" />
@@ -50,7 +53,7 @@
     </header>
 
     <main>
-        <section class="left-nav">
+        <!-- <section class="left-nav">
             <figure class="left-nav-img">
                 <img src="assets/images/Roologo.webp" alt="humble temporary logo of Roo" />
             </figure>
@@ -59,7 +62,7 @@
             <a href="#resume">RESUME</a>
             <a href="#portfolio">PORTFOLIO</a>
             <a href="#contactMe">CONTACT ME</a>
-        </section>
+        </section> -->
 
         <section class="about-me container" id="aboutMe">
             <h2> ABOUT ME </h2>
@@ -146,7 +149,7 @@
 
         <section class="portfolio container" id="portfolio">
             <h2> PORTFOLIO </h2>
-            <div class="portfolio-button-container">
+            <div id="portfolioButtonContainer">
                 <button class="port-btn active" onclick="JSFilter('all')">All</button>
                 <button class="port-btn" onclick="JSFilter('writing')">Writing</button>
                 <button class="port-btn" onclick="JSFilter('photography')">Photography</button>
@@ -188,13 +191,16 @@
                     <img src="assets/images/RevoufundaWebcapture.webp" alt="Webcapture of RevoU's Fundamental Course Assignment" />
                 </figure>
                 <figure class="port-filter revou">
-                    <img src="assets/images/A1Webcapture.webp" alt="Webcapture of RevoU's FSSE 1st week Assignment" />
+                    <img src="assets/images/A2Webcapture.webp" id="revou-A2"
+                    alt="Webcapture of RevoU's FSSE 2nd week Assignment" />
                 </figure>
                 <figure class="port-filter revou">
-                    <img src="assets/images/A2Webcapture.webp" alt="Webcapture of RevoU's FSSE 2nd week Assignment" />
+                    <img src="assets/images/A3Webcapture.webp" id="revou-A3"
+                    alt="Webcapture of RevoU's FSSE 3rd week Assignment" />
                 </figure>
                 <figure class="port-filter revou">
-                    <img src="assets/images/A3Webcapture.webp" alt="Webcapture of RevoU's FSSE 3rd week Assignment" />
+                    <img src="assets/images/A1Webcapture.webp" id="revou-A1"
+                    alt="Webcapture of RevoU's FSSE 1st week Assignment" />
                 </figure>
                 <!-- <figure class="port-filter revou">
                     <img src="" alt="revou5" />
@@ -213,7 +219,7 @@
             <div class="contact-links">
                 <div class="contact-email">
                     <img src="assets/icons/email.svg" alt="Gmail Logo" />
-                    <h3>SOChronicle@gmail.com SOlivia198@gmail.com</h3>
+                    <h3>|SOChronicle@gmail.com |SOlivia198@gmail.com</h3>
                 </div>
                 <div class="contact-socmed">
                     <a href="https://www.linkedin.com/in/sherin-olivia-07311127a/" target="_blank">
@@ -229,6 +235,7 @@
                         <img src="assets/icons/github.svg" alt="Github profile of Sherin Olivia" />
                     </a>
                 </div>
+                <div><small>Copyright © 2023 Sherin Olivia. All Rights Reserved.</small></div>
             </div>
         </section>
     </footer>
