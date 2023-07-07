@@ -142,30 +142,33 @@ Now that our custom domain is active, we can go ahead and deploy our website thr
 9. When your website is successfully deployed, you will get a randomly named website with 'netlify.app' subdomain. 
 <img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/netlifyrandomnamesite.webp" alt="netlify's randomly-named site" />
 10. Click 'Site configuration' -> 'Change site name' to change the website's name.
-<img src="" alt="changing site name" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/changesitenamenetlify.webp" alt="changing site name" />
 
 
 <p>We're 75% there! Now we need to configure the setting so our custom domain will link to our deployed website.<p>
 
 11. Now, click on 'Domain settings' -> 'Add a domain'. 
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/addcustomdomainnetlify.webp" alt="domain setting in netlify to add custom domain"/>
 12. Insert your custom domain and click on 'verify'
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/addcustomdomain_2_.webp" alt="insert custom domain to domain setting"/>
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/addcustomdomain_3_.webp" alt="adding custom domain to netlify" />
 13. Next, go back to Cloudfare and click on your custom domain.
-<img src="" alt="custom domain on Cloudfare" />
 
 14. Click on 'DNS' setting on the left side-bar or under Quick Action on the right side.
-<img src="" alt="Where to find DNS Setting" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/wheretofinddnssetting.webp" alt="Where to find DNS Setting" />
 
 15. Click on 'Add record', and insert these:
 - Type: CNAME, Name: www, Content: (your custom domain i.e roozone.site)
 - Type: CNAME, Name: (your custom domain i.e roozone.site), Content: (your netlify website link i.e roozonev2.netlify.app)
-<img src="" alt="DNS Record management" />
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/dnsrecordmanagement.webp" alt="DNS Record management" />
 
 <p align="center"><strong>Now We are done! Happy Testing!</strong><p>
 
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/successfulcustomdomain.webp" alt="succesfully configured custom domain to netlify site" />
 ### Contact Me:
 
-<img src="https://github.com/RevoU-FSSE-2/week-3-SherinOlivia/blob/main/assets/gmaillogo.webp" alt="gmail"/> SOChronicle@gmail.com (personal)
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/ec070b5a2e4e0ad121706596ada521e0e856af7b/assets/icons/email.svg" alt="gmail"/> SOChronicle@gmail.com (personal)
 
-<img src="https://github.com/RevoU-FSSE-2/week-3-SherinOlivia/blob/main/assets/gmaillogo.webp" alt="gmail"/> SOlivia198@gmail.com (work)
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/ec070b5a2e4e0ad121706596ada521e0e856af7b/assets/icons/email.svg" alt="gmail"/> SOlivia198@gmail.com (work)
 
-<a href="https://discord.com/users/shxdxr#7539" target="_blank"><img src=" " class="discordLogo" alt="discord"/></a>&ensp;<a href="https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==" target="_blank"><img src=" " class="instagramLogo" alt="instagram"/></a>&ensp;<a href="https://www.linkedin.com/in/sherin-olivia-07311127a/" target="_blank"><img src=" " class="linkedLogo" alt="linkedin"/></a>
+<a href="https://discord.com/users/shxdxr#7539" target="_blank"><img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/ec070b5a2e4e0ad121706596ada521e0e856af7b/assets/icons/discord.svg" class="discordLogo" alt="discord"/></a>&ensp;<a href="https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/ec070b5a2e4e0ad121706596ada521e0e856af7b/assets/icons/instagram.svg" class="instagramLogo" alt="instagram"/></a>&ensp;<a href="https://www.linkedin.com/in/sherin-olivia-07311127a/" target="_blank"><img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/ec070b5a2e4e0ad121706596ada521e0e856af7b/assets/icons/linkedin.svg" class="linkedLogo" alt="linkedin"/></a>
