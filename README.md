@@ -27,16 +27,19 @@ For this week's assignment, the main focus are :
 In regard to the first focus point of the assignment, I used internal terminal of VSCode to create the branches and committing changes, and Github to make pull requests and merging the codes. For this simple personal website, I created 3 branches and 6 pull requests. 
 
 - Creating a new  branch and switching to the new branch:
-<img src="" alt="creating branches through VSCode internal terminal">
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/Creating%20and%20Switching%20to%20Git%20Branch.webp" alt="creating branches through VSCode internal terminal">
 
 - Committing changes and pushing to the new branch:
-<img src="" alt="committing changes and pushing to the new branch through VSCode internal terminal">
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/Git%20Push%20to%20Git%20Branch.webp" alt="committing changes and pushing to the new branch through VSCode internal terminal">
 
 - Pull Request
-<img src="" alt="Making pull request to merge codes from branch to main">
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/Pull%20Request%20Review.webp" alt="Making pull request to merge codes from branch to main">
 
 - Pull Request Review & Merge code
-<img src="" alt="Pull Request review and an example of a succesful one">
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/Pull%20Request.webp" alt="Pull Request review">
+
+- Succesfull Pull Request
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/Successful%20Pull%20Request.webp" alt="an example of a succesful pull request">
 
 <strong>Simple Website features:</strong>
 - functional navigation bar 
@@ -60,7 +63,7 @@ In regard to the first focus point of the assignment, I used internal terminal o
 
 ## Pagespeed Analysis Result
 
-<img src="" alt="Pagespeed Analysis Result">
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/Pagespeedanalysis.webp" alt="Pagespeed Analysis Result">
 
 ## Purchasing Custom Domain
 
