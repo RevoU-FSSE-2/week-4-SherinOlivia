@@ -70,7 +70,9 @@ In regard to the first focus point of the assignment, I used internal terminal o
 To purchase a custom domain, we either need a :
 
 - internationally accepted credit card for international domain registrar
+
 or
+
 - m-banking / qris / e-wallet / physical-visit to any partner convenience store for domestic domain registrar.
 
 In this particular tutorial, we are opting for domestic domain registrar, 'Niagahoster'.
