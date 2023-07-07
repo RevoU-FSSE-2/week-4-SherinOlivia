@@ -23,7 +23,13 @@
     --text-shadow-secondary-and-hover: #0353A4;
     --text-shadow-background: #001845;
     --text-with-backgrounds-color: #e7ecef;
+    --sub-subtitle-background-color: #156ec7;
     --button-clicked: #002855;
+    --section-title-font-size: 24px;
+    --section-subtitle-font-size: 16px;
+    --paragraph-title-button-and-h3-font-size: 14px;
+    --paragraph-font-size: 12px;
+    --about-me-span-font-size: 16px;
     
 }
 
@@ -47,6 +53,7 @@ body {
 
 /* all headings: */
 h1, h2 {
+    font-size: var(--section-title-font-size);
     text-transform: uppercase;
 }
 
@@ -83,6 +90,7 @@ header .homepage {
     width: 100%;
     height: 100%;
     gap: 5vw;
+    padding-bottom: 15vw;
 }
 
 header .homepage .homepage-left {
@@ -105,18 +113,20 @@ header .homepage .homepage-left h2 span {
     font-family: Yellowtail;
     text-transform: uppercase;
     text-decoration: underline;
-    padding-bottom: 25vw;
+    /* padding-bottom: 25vw; */
 }
 
 header .homepage .homepage-left span.title {
     text-shadow: 0 0 5px var(--text-with-backgrounds-color);
     background-color: var(--primary-color);
+    box-shadow: -3px -3px 3px var(--text-shadow-background);
+    font-size: var(--section-subtitle-font-size);
 }
 
 header .homepage .homepage-left p {
     text-align: justify;
     padding: 5vw 0 7.5vw;
-    font-size: 12px;
+    font-size: var(--paragraph-font-size);
 }
 
 header .homepage .homepage-left button {
@@ -127,6 +137,7 @@ header .homepage .homepage-left button {
     background-color: var(--primary-color);
     text-shadow: 0 0 3px var(--text-shadow-secondary-and-hover), 
     0 0 5px var(--text-shadow-background);
+    font-size: var(--paragraph-title-button-and-h3-font-size);
     cursor: pointer;
 }   
 
@@ -145,6 +156,10 @@ header .homepage .homepage-left button a:link {
 
 header .homepage .homepage-left button a:visited {
     color: var(--text-with-backgrounds-color);
+}
+
+header .homepage .homepage-left figure img {
+    display: none;
 }
 
 .homepage .homepage-right {
@@ -175,12 +190,12 @@ section.about-me {
 }
 
 section.about-me span {
-    row-gap: 5vw;
+    font-size: var(--about-me-span-font-size);
 }
 
 section.about-me p {
     padding-top: 5vw;
-    font-size: 12px;
+    font-size: var(--paragraph-font-size);
     text-align: justify;
 }
 
@@ -196,6 +211,10 @@ section.about-me p {
     text-align: justify;
 }
 
+.hobby2 {
+    flex-direction: row-reverse;
+}
+
 .hobby img {
     width: 25vw;
     height: 25vw;
@@ -209,13 +228,20 @@ section.resume {
     padding: 3.5vw 2vw;
 }
 
+.resume span {
+    background-color: var(--sub-subtitle-background-color);
+    box-shadow: -3px -3px 3px var(--text-shadow-background);
+    font-size: var(--section-subtitle-font-size);
+}
+
 .resume dt {
     padding-top: 1.5vw;
     text-decoration: underline;
+    font-size: var(--paragraph-title-button-and-h3-font-size);
 }
 
 .resume dd {
-    font-size: 12px;
+    font-size: var(--paragraph-font-size);
 }
 
 /* Construction site : portfolio starts */
@@ -224,27 +250,29 @@ section.portfolio {
     padding: 17.5vw 2vw;
 }
 
-.portfolio-button-container {
+#portfolioButtonContainer {
     padding: 5vw 0;
     display: flex;
     justify-content: center;
     gap: 3.5vw;
 }
-.portfolio-button-container button {
+
+#portfolioButtonContainer button {
     border-style: none;
     background-color: transparent;
     text-decoration: underline;
+    font-size: var(--paragraph-title-button-and-h3-font-size);
     font-weight: 700;
     cursor: pointer;
 }
 
-.portfolio-button-container button:hover {
-    text-shadow: 0 0 3px var(--text-shadow-secondary-and-hover);
+#portfolioButtonContainer button:hover {
+    text-shadow: 1px 1px 3px var(--text-shadow-secondary-and-hover);
 }
 
-.portfolio-button-container button.active {
+#portfolioButtonContainer button.active {
     color: var(--text-with-backgrounds-color);
-    text-shadow: 0 0 3px var(--text-shadow-background);
+    text-shadow: 2px 2px 3px var(--text-shadow-background);
 }
 
 .port-filter {
@@ -261,13 +289,25 @@ section.portfolio {
     justify-content: center;
     gap: 5vw;
     padding: 5vw 0;
-    margin-top: 5vw;
     overflow: hidden;
 }
 
 .portfolio img {
     width: 35vw;
-    height: 35vw;
+    height: 55vw;
+}
+
+.writing img {
+    object-fit: fill;
+}
+
+#revou-A1 {
+    width: 55dvw;
+    object-fit: fill;
+}
+
+#revou-A2, #revou-A3 {
+    object-position: top;
 }
 /* Construction site : portfolio ends */
 
@@ -283,6 +323,7 @@ section.contact {
 }
 
 .contact-greeting {
+    font-size: var(--section-subtitle-font-size);
     padding: 5vw 0;
 }
 
@@ -291,7 +332,10 @@ section.contact {
     align-items: center;
     gap: 5vw;
     text-align: justify;
-    font-size: 12px;
+}
+
+.contact-email h3 {
+    font-size: var(--paragraph-title-button-and-h3-font-size);
 }
 
 .contact-socmed {
@@ -303,4 +347,9 @@ section.contact {
 .contact img {
     width: 10vw;
     height: 10vw;
+}
+
+.contact div small {
+    display: flex;
+    justify-content: center;
 }

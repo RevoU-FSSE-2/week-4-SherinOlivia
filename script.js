@@ -31,9 +31,9 @@ function RemoveClass(element, name) {
 }
 
 // Add active class to the current button (highlight it)
-let buttonContainer = document.getElementByClass("portfolio-button-container");
-let buttons = btnContainer.getElementsByClassName("port-btn");
-for (let i = 0; i < btns.length; i++) {
+let buttonContainer = document.getElementById("portfolioButtonContainer");
+let buttons = buttonContainer.getElementsByClassName("port-btn");
+for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function(){
     let current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
